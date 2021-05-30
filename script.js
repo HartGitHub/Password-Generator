@@ -29,7 +29,15 @@ function generatePassword() {
       );
       generatePassword()
   }
-}
+  if(upperCase || lowerCase || specialChars || numberVals){
+alert ("Preferences are now set. Your password will be generated now.")
+
+  }else{
+    alert ("Please select at least one character value to generate your password");
+    generatePassword()
+  }
+
+}//NOTES** Include if statement with all char values and utilize or, so that true will be utilizied end with an else that a char must be selected. Make a for loop passwordLength instead of array.length
 
 // WHEN the password is generated
 // THEN the password is either displayed in an alert or written to the page
