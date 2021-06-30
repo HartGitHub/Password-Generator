@@ -21,6 +21,7 @@ Apache
 
 # Description
 Select user preferences i.e. special character inclusion or not and password length to generate a new password each cycle.
+![live deployed](passwordGenerator.PNG)
 
 # Contributors
  The following contributed on this assignment: Tutor
